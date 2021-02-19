@@ -451,8 +451,17 @@ img {
   justify-items: center;
 }
 
+.intro {
+  text-align: center;
+}
+
 .about-text {
   font-size: 1rem;
+  text-align: justify;
+}
+
+.about-text li {
+  padding-left: 1rem;
 }
 
 .about-text a {

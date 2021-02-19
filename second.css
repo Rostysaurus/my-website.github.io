@@ -173,12 +173,13 @@ body .my-btn:active {
 }
 
 .front-ahlambra p {
-  padding: 2rem;
+  padding: 1rem;
   font-size: 3rem;
   font-weight: bold;
 }
 
 .ahlambra-full-screen .photos-desctiption {
+  padding: 0%;
   font-size: 1rem;
   font-style: italic;
   /* font-family: "Playfair Display", serif; */

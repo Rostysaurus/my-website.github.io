@@ -2,7 +2,7 @@
 
 // Variables
 const allAlbumLinks = [
-  "ahlambra.html",
+  "alhambra.html",
   "andorra.html",
   "berlin.html",
   "brittany.html",
@@ -95,7 +95,7 @@ for (let i = 0; i < btnIndImage.length; i++)
     wrapper.classList.add("open");
     fullImage.classList.add("open");
     //Dynamic image change//
-    fullImage.src = `assets/ahlambra/photos/${i}.jpg`;
+    fullImage.src = `assets/alhambra/photos/${i}.jpg`;
     indexImage = i;
   });
 
@@ -121,11 +121,11 @@ document.addEventListener("keydown", function (e) {
     fullImage.classList.contains("open")
   ) {
     var nextImage = indexImage + 1;
-    fullImage.src = `assets/ahlambra/photos/${[nextImage]}.jpg`;
+    fullImage.src = `assets/alhambra/photos/${[nextImage]}.jpg`;
     indexImage = nextImage;
     if (indexImage >= imageNumber) {
       indexImage = 0;
-      fullImage.src = `assets/ahlambra/photos/${[indexImage]}.jpg`;
+      fullImage.src = `assets/alhambra/photos/${[indexImage]}.jpg`;
     }
   } else if (
     e.key === "ArrowLeft" &&
@@ -133,11 +133,11 @@ document.addEventListener("keydown", function (e) {
     fullImage.classList.contains("open")
   ) {
     var nextImage = indexImage - 1;
-    fullImage.src = `assets/ahlambra/photos/${[nextImage]}.jpg`;
+    fullImage.src = `assets/alhambra/photos/${[nextImage]}.jpg`;
     indexImage = nextImage;
     if (indexImage <= 0) {
       indexImage = imageNumber - 1;
-      fullImage.src = `assets/ahlambra/photos/${[indexImage]}.jpg`;
+      fullImage.src = `assets/alhambra/photos/${[indexImage]}.jpg`;
     }
   }
 });
@@ -151,11 +151,11 @@ rightSlide.addEventListener("click", function () {
     fullImage.classList.contains("open")
   ) {
     var nextImage = indexImage + 1;
-    fullImage.src = `assets/ahlambra/photos/${[nextImage]}.jpg`;
+    fullImage.src = `assets/alhambra/photos/${[nextImage]}.jpg`;
     indexImage = nextImage;
     if (indexImage >= imageNumber) {
       indexImage = 0;
-      fullImage.src = `assets/ahlambra/photos/${[indexImage]}.jpg`;
+      fullImage.src = `assets/alhambra/photos/${[indexImage]}.jpg`;
     }
   }
 });
@@ -167,11 +167,11 @@ leftSlide.addEventListener("click", function () {
     fullImage.classList.contains("open")
   ) {
     var nextImage = indexImage - 1;
-    fullImage.src = `assets/ahlambra/photos/${[nextImage]}.jpg`;
+    fullImage.src = `assets/alhambra/photos/${[nextImage]}.jpg`;
     indexImage = nextImage;
     if (indexImage <= 0) {
       indexImage = imageNumber - 1;
-      fullImage.src = `assets/ahlambra/photos/${[indexImage]}.jpg`;
+      fullImage.src = `assets/alhambra/photos/${[indexImage]}.jpg`;
     }
   }
 });

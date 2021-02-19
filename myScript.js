@@ -121,7 +121,7 @@ btnViewAllPhotos.addEventListener("click", function () {
 });
 // Individual buttons
 btnAhlambra.addEventListener("click", function () {
-  document.location.href = "ahlambra.html";
+  document.location.href = "alhambra.html";
 });
 btnAndorra.addEventListener("click", function () {
   document.location.href = "andorra.html";

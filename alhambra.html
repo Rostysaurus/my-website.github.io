@@ -23,6 +23,10 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <!-- Font-Awesome -->
     <link
       rel="stylesheet"
@@ -31,10 +35,11 @@
       crossorigin="anonymous"
     />
     <link rel="icon" href="logo.png" />
-    <title>Photos</title>
+    <title>Alhambra</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-albums">
+      <!-- Header -->
       <div class="zone header">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="index.html">ROSTYSLAV KANIBOLOTSKYI</a>
@@ -71,54 +76,111 @@
         <nav style="--bs-breadcrumb-divider: ''" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Photos</li>
+            <li class="breadcrumb-item"><a href="photos.html">Photos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Alhambra</li>
           </ol>
         </nav>
 
         <div class="ahlambra-full-screen">
-          <!-- <i class="fas fa-camera"></i> -->
-          <p>Photos</p>
+          <p>Alhambra</p>
           <p class="photos-desctiption">
-            A compilation of pictures I took during my trips around Europe
+            Inspired by Lluís Casals' incredible architectural images of
+            Alhambra, I had decided to visit this fantastic place myself and
+            tell my own strory of this gorgeous palace with all of its unique
+            archutectual elements
           </p>
           <hr />
         </div>
       </div>
 
-      <div class="albums">
-        <div class="album one">
-          <div>
-            <h1 class="image-text text-0">Alhambra</h1>
-          </div>
+      <!-- pictures -->
+      <div class="pictures">
+        <div class="image 1">
+          <img src="assets/alhambra/photos/0.jpg" alt="" />
         </div>
-        <div class="album two">
-          <div>
-            <h1 class="image-text text-1">Andorra</h1>
-          </div>
+        <div class="image 2">
+          <img src="assets/alhambra/photos/1.jpg" alt="" />
         </div>
-        <div class="album three">
-          <div>
-            <h1 class="image-text text-2">Berlin</h1>
-          </div>
+        <div class="image 3">
+          <img src="assets/alhambra/photos/2.jpg" alt="" />
         </div>
-        <div class="album four">
-          <div>
-            <h1 class="image-text text-3">Brittany</h1>
-          </div>
+        <div class="image 4">
+          <img src="assets/alhambra/photos/3.jpg" alt="" />
         </div>
-        <div class="album five">
-          <div>
-            <h1 class="image-text text-3">Ireland</h1>
-          </div>
+        <div class="image 5">
+          <img src="assets/alhambra/photos/4.jpg" alt="" />
         </div>
-        <div class="album six">
-          <div>
-            <h1 class="image-text text-3">North Wales</h1>
-          </div>
+        <div class="image 6">
+          <img src="assets/alhambra/photos/5.jpg" alt="" />
+        </div>
+        <div class="image 7">
+          <img src="assets/alhambra/photos/6.jpg" alt="" />
+        </div>
+        <div class="image 8">
+          <img src="assets/alhambra/photos/7.jpg" alt="" />
+        </div>
+        <div class="image 9">
+          <img src="assets/alhambra/photos/8.jpg" alt="" />
+        </div>
+        <div class="image 10">
+          <img src="assets/alhambra/photos/9.jpg" alt="" />
+        </div>
+        <div class="image 11">
+          <img src="assets/alhambra/photos/10.jpg" alt="" />
+        </div>
+        <div class="image 12">
+          <img src="assets/alhambra/photos/11.jpg" alt="" />
+        </div>
+        <div class="image 13">
+          <img src="assets/alhambra/photos/12.jpg" alt="" />
+        </div>
+        <div class="image 14">
+          <img src="assets/alhambra/photos/13.jpg" alt="" />
+        </div>
+        <div class="image 15">
+          <img src="assets/alhambra/photos/14.jpg" alt="" />
+        </div>
+        <div class="image 16">
+          <img src="assets/alhambra/photos/15.jpg" alt="" />
+        </div>
+        <div class="image 17">
+          <img src="assets/alhambra/photos/16.jpg" alt="" />
+        </div>
+        <div class="image 18">
+          <img src="assets/alhambra/photos/17.jpg" alt="" />
+        </div>
+        <div class="image 19">
+          <img src="assets/alhambra/photos/18.jpg" alt="" />
+        </div>
+        <div class="image 20">
+          <img src="assets/alhambra/photos/19.jpg" alt="" />
+        </div>
+        <div class="image 21">
+          <img src="assets/alhambra/photos/20.jpg" alt="" />
+        </div>
+        <div class="image 22">
+          <img src="assets/alhambra/photos/21.jpg" alt="" />
+        </div>
+        <div class="image 23">
+          <img src="assets/alhambra/photos/22.jpg" alt="" />
         </div>
       </div>
+
+      <!-- Modaal -->
+
+      <div class="wrapper">
+        <img src="assets/alhambra/photos/1.jpg" alt="" class="full-img" />
+        <i class="fas fa-chevron-circle-left left"></i>
+        <i class="fas fa-chevron-circle-right right"></i>
+      </div>
     </div>
-    <div class="bottom-hr"><hr /></div>
+
+    <div class="view-more-photos">
+      <button class="my-btn view-all-photos">
+        <i class="fas fa-camera"></i>
+        <a>VIEW ALL PHOTOS</a>
+      </button>
+    </div>
 
     <div class="bottom">
       <div class="contact">
@@ -157,90 +219,7 @@
       </div>
     </div>
 
-    <script>
-      "use strict";
-
-      // Variables
-      const allAlbumLinks = [
-        "alhambra.html",
-        "andorra.html",
-        "berlin.html",
-        "brittany.html",
-        "ireland.html",
-        "wales.html",
-      ];
-
-      console.log(allAlbumLinks[2]);
-
-      const btnAlmumImages = document.querySelectorAll(".album");
-      const textOneEl = document.querySelectorAll(".image-text");
-      const btnIndImage = document.querySelectorAll(".image");
-
-      const btnAbout = document.querySelector(".btn-about");
-      const btnEmailMe = document.querySelector(".btn-email-me");
-
-      const gitHub = document.querySelector(".fa-github");
-      const linkedIn = document.querySelector(".fa-linkedin-in");
-      const insta = document.querySelector(".fa-instagram");
-      const behance = document.querySelector(".fa-behance-square");
-
-      // CONTACT BUTTONTS
-
-      btnAbout.addEventListener("click", function () {
-        document.location.href = "about.html";
-      });
-
-      btnEmailMe.addEventListener("click", function () {
-        window.open("mailto:rkanibolotskyi@gmail.com");
-      });
-
-      // Social media icons
-
-      gitHub.addEventListener("click", function () {
-        window.open("https://github.com/Rostysaurus");
-        // document.location.href = "photos.html";
-      });
-
-      linkedIn.addEventListener("click", function () {
-        window.open("https://www.linkedin.com/in/rkanibolotskyi/");
-        // document.location.href = "photos.html";
-      });
-
-      insta.addEventListener("click", function () {
-        window.open("https://www.instagram.com/rkanibolotskyi/");
-        // document.location.href = "photos.html";
-      });
-
-      behance.addEventListener("click", function () {
-        window.open("https://www.behance.net/rkanibolot9121");
-        // document.location.href = "photos.html";
-      });
-
-      // ALBUMS
-
-      // Mouse Over
-
-      for (let i = 0; i < btnAlmumImages.length; i++)
-        if (window.screen.width <= 400) {
-          console.log("small");
-          textOneEl[`${i}`].style.display = "block";
-        } else {
-          btnAlmumImages[i].addEventListener("mouseover", function () {
-            textOneEl[`${i}`].style.display = "block";
-          });
-          // Mouse Out
-
-          btnAlmumImages[i].addEventListener("mouseout", function () {
-            textOneEl[`${i}`].style.display = "none";
-          });
-        }
-
-      //   Mouse click
-      for (let i = 0; i < btnAlmumImages.length; i++)
-        btnAlmumImages[i].addEventListener("click", function () {
-          document.location.href = allAlbumLinks[`${i}`];
-        });
-    </script>
+    <script src="myScriptPhotos.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

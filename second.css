@@ -350,7 +350,7 @@ img {
 .left {
   margin-left: 10px;
   font-size: 3rem;
-  color: rgb(97, 95, 95);
+  color: rgb(131, 130, 130);
   opacity: 0;
   cursor: pointer;
   z-index: 2;
@@ -360,7 +360,7 @@ img {
 .right {
   margin-right: 10px;
   font-size: 3rem;
-  color: rgb(97, 95, 95);
+  color: rgb(131, 130, 130);
   opacity: 0;
   cursor: pointer;
   z-index: 2;
@@ -368,11 +368,11 @@ img {
 }
 
 .left:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .right:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .wrapper.open {

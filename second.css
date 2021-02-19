@@ -180,6 +180,8 @@ body .my-btn:active {
 
 .ahlambra-full-screen .photos-desctiption {
   padding: 0%;
+  padding-right: 20%;
+  padding-left: 20%;
   font-size: 1rem;
   font-style: italic;
   /* font-family: "Playfair Display", serif; */

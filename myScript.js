@@ -23,7 +23,7 @@ const behance = document.querySelector(".fa-behance-square");
 // CONTACT BUTTONTS
 
 btnAbout.addEventListener("click", function () {
-  document.location.href = "about.html";
+  document.location.href = "about";
 });
 
 btnEmailMe.addEventListener("click", function () {
@@ -117,18 +117,18 @@ for (let i = 0; i < btnAlmumImages.length; i++)
 
 //   Btn View All Photos
 btnViewAllPhotos.addEventListener("click", function () {
-  document.location.href = "photos.html";
+  document.location.href = "photos";
 });
 // Individual buttons
 btnAhlambra.addEventListener("click", function () {
-  document.location.href = "alhambra.html";
+  document.location.href = "alhambra";
 });
 btnAndorra.addEventListener("click", function () {
-  document.location.href = "andorra.html";
+  document.location.href = "andorra";
 });
 btnBerlin.addEventListener("click", function () {
-  document.location.href = "berlin.html";
+  document.location.href = "berlin";
 });
 btnBrittany.addEventListener("click", function () {
-  document.location.href = "brittany.html";
+  document.location.href = "brittany";
 });

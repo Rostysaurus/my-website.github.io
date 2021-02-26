@@ -2,10 +2,10 @@
 
 // Variables
 const allAlbumLinks = [
-  "alhambra.html",
-  "andorra.html",
-  "berlin.html",
-  "brittany.html",
+  "alhambra",
+  "andorra",
+  "berlin",
+  "brittany",
 ];
 
 const btnAbout = document.querySelector(".btn-about");
@@ -29,7 +29,7 @@ const behance = document.querySelector(".fa-behance-square");
 // CONTACT BUTTONTS
 
 btnAbout.addEventListener("click", function () {
-  document.location.href = "about.html";
+  document.location.href = "about";
 });
 
 btnEmailMe.addEventListener("click", function () {
@@ -83,7 +83,7 @@ for (let i = 0; i < btnAlmumImages.length; i++)
 
 //   Btn View All Photos
 btnViewAllPhotos.addEventListener("click", function () {
-  document.location.href = "photos.html";
+  document.location.href = "photos";
 });
 
 // INDIVIDUAL IMAGES
